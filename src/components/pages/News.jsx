@@ -1,6 +1,6 @@
-import { Row, Col, Input, Card, Avatar, Typography, Select } from "antd";
+import { Row, Col,Card, Avatar, Typography, Select } from "antd";
 import moment from "moment";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { useFetchCoin } from "../../hooks/useFetchCoin";
 import { useFetchNews } from "../../hooks/useFetchNews"
 
