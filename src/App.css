@@ -1,0 +1,84 @@
+@import '~antd/dist/antd.css';
+
+body, html, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.site-layout{
+  min-height: 100%;
+}
+
+.branding{
+  color: whitesmoke;
+  float: left;
+  margin: 0px 0 16px 24px;
+}
+.branding span{
+  font-size: large;
+}
+
+.main{
+  min-height: 100%;
+}
+
+.banner {padding: 30px}
+.text-white {
+  color: white;
+}
+.customTags{
+  width: 10rem;
+  height: 5rem;
+  text-align: center;
+  line-height: 6.5;
+  margin: 0;
+}
+
+.br-tr{
+  border-top-right-radius: 20px;
+}
+.br-tl{
+  border-top-left-radius: 20px;
+}
+.br-bl{
+  border-bottom-left-radius: 20px;
+}
+.br-br{
+  border-bottom-right-radius: 20px;
+}
+
+.item {
+  box-shadow: 0 0 0 2px #ddd;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item-icon {
+  width: 100%;
+  height: 100%; 
+  padding: 25%;
+}
+
+.bg-blue{
+  background-color: #2952E3;
+}
+
+.bg-red{
+  background-color: #F84550;
+}
+
+.bg-purple{
+  background-color: #8945F8;
+}
+.crypto-icon{
+  width: 36px;
+}
+.center-text{
+  text-align: center;
+}
+.stats-row{
+  width: 100%;
+  padding: 1.4rem .5rem .5rem .5rem;
+  border-bottom:  1px solid #ddd ;
+}
