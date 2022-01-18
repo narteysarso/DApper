@@ -62,7 +62,11 @@ const Welcome = () => {
 
                 <Col >
                     <Title style={{ color: 'white' }}>Send Crypto <br /> Across The World</Title>
-                    <Paragraph style={{ color: 'white' }}>Explore the crypto world. Buy and sell cryptocurrency easily with ETHER</Paragraph>
+                    <Paragraph style={{ color: 'white' }}>
+                        Explore the crypto world. Buy and sell cryptocurrency easily with ETHER over the &nbsp; 
+                         <span style={{color: 'gold'}}>Ropsten Test Network </span> 
+                         <Tag color="red" >( NOT Ethereum Mainnet 🤪 !!!)'</Tag>
+                        </Paragraph>
 
                     {!currentAccount && <Button shape="round" block type='primary' onClick={connectWallet}>Connect Wallet</Button>}
 
