@@ -50,7 +50,7 @@ export default function News({ simplified = false }) {
                 (
                     <Row gutter={[24, 24]}>
                         {news?.map((news, idx) => (
-                            <Col xs={24} sm={6} md={4} key={idx}>
+                            <Col xs={24} sm={6} md={4} lg={6} key={idx}>
 
                                 <Card className="news-card"
                                     hoverable={true}
